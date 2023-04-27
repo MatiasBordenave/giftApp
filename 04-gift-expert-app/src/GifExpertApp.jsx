@@ -4,7 +4,7 @@ import { Nav } from "./Nav";
 
 export const GifExpertApp = () => {
 
-  const [categories, setCategories] = useState(['One Punch'])
+  const [categories, setCategories] = useState(['gif'])
 
   const onAddCategory= (newCategory) =>{
     if (categories.includes(newCategory)) return;
